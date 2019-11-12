@@ -1,0 +1,104 @@
+body{
+    /* width: 1440px; */
+    background-color: #f8f8f8;
+}
+p{
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    margin-left: 50px;
+}
+h2{
+    margin-left: 50px;
+}
+.artificial-text{
+    margin: 0 400px;
+    padding: 15px 0 50px;
+}
+ h1, h2, p{
+    font-family: 'Poppins',
+    sans-serif;
+}
+img{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.reliable{
+    font-weight: lighter;
+    margin: 100px 0 5px;
+}
+.power {
+    font-weight: 600px bold;
+    color: black bold;
+    margin: 5px 0;    
+}
+.top-text{
+    text-align: center;
+    margin: 0 150;
+}
+.container{
+    display: flex;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item{
+    width: 350px;
+    height: 220px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 255, .1);
+}
+.middle-grid{
+    width: 375px;
+}
+.supervisor{
+    border: 5px solid transparent;
+    border-block-start-color: hsl(180, 62%, 55%);
+    margin: 150px 20px 0 100px;
+}
+.builder{
+    margin-bottom: 50px;
+    border: 5px solid transparent;
+    border-block-start-color:hsl(0, 78%, 62%);
+}
+.karma{
+    margin-right: 50px;
+    border: 5px solid transparent;
+    border-block-start-color: hsl(34, 97%, 64%);
+}
+.calculator{
+   margin: 150px 100px 0 0;
+   border: 5px solid transparent;
+   border-block-start-color:hsl(212, 86%, 64%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+@media (max-width: 1028px) {
+.grid-container{
+    display: block;
+}
+.supervisor{
+    text-align: center;
+    margin-left: 50px;
+}
+.builder{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.karma{
+    text-align: center;
+    margin-left: 50px;
+}
+.calculator{
+    text-align: center;
+    margin-left: 50px;
+}
+.artificial-text{
+    margin: 0;
+}
+}
